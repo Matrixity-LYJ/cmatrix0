@@ -4,13 +4,13 @@ var matrix = document.getElementById('matrix')
 var ctx = matrix.getContext('2d')
 
 var config = {
-  amount: 70,  // of columns going down (it will top at this number)
-  speed: 100,   // time between updates in ms (lower = faster)
+  amount: 200,  // of columns going down (it will top at this number)
+  speed: 90,   // time between updates in ms (lower = faster)
   size: 15,    // in px
   minLength: 5,
   maxLength: 11,
   firstColor: '#fff',
-  color: '#0f2'
+  color: '#046'
 }
 
 var datarray = []
